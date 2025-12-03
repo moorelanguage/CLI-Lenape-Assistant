@@ -170,35 +170,33 @@ def run_assistant():
             search_lenape() 
         elif 'search dictionary' in query: 
             search_lenape()
-
-        # open wikipedia block 
-        
+            
+        # open wikipedia block
         elif 'Wikipedia a' in query:
             speak("nta Wikipedia...")
             webbrowser.open("https://www.wikipedia.org/")
-       
-       elif 'Nta Wikipedia' in query:
+
+        elif 'Nta Wikipedia' in query:
             speak("nta Wikipedia...")
             webbrowser.open("https://www.wikipedia.org/")
-            
+
         elif 'Kta Wikipedia' in query:
             speak("nta Wikipedia...")
             webbrowser.open("https://www.wikipedia.org/")    
-       
-       # block to start tumblr 
-       
+
+        # block to start tumblr
         elif 'Tumblr a' in query:
             speak("nta Tumblr...")
             webbrowser.open("https://www.tumblr.com/")
-       
-       elif 'Nta Tumblr' in query:
+
+        elif 'Nta Tumblr' in query:
             speak("nta Tumblr...")
             webbrowser.open("https://www.tumblr.com/")
-            
+
         elif 'Kta Tumblr' in query:
             speak("nta Tumblr...")
-            webbrowser.open("https://www.tumblr.com/")        
-       
+            webbrowser.open("https://www.tumblr.com/")
+
         # block to start Obsidian.md
         elif 'obsidian' in query:
             speak("nta Obsidian...")
